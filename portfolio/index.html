@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="icon" href="icon L.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,10 +19,16 @@
             <div class="right">
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Services</a></li>
-                    <li><a href="/">Project</a></li>
-                    <li><a href="/">Contact me</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li class="dropdown">
+                        <a href="#skills" class="dropbtn">Skills</a>
+                        <div class="dropdown-content">
+                            <a href="f.html">Frontend</a>
+                            <a href="lang.html">Programming Languages</a>
+                        </div>
+                    </li>
+                    <li><a href="f.html#boxes2">Project</a></li>
+                    <li><a href="contactme.html">Contact me</a></li>
                 </ul>
             </div>
         </nav>
@@ -32,6 +39,9 @@
                 Hi, My name is <span class="white">Prateek</span> 
                 <div>and I am an upcoming </div>
                 <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"><a href="https://drive.google.com/file/d/1ibXoMB0o2uWukxdw4KDo1e_Hi8dGGIXm/view?usp=sharing" target="_blank">Download Resume</a></button>
+                </div>
             </div>
             <div class="rightsec">
                 <img src="1.jpeg"/>
@@ -61,6 +71,9 @@
                         <li><strong>Email Id: </strong> prateekjdelhi2004@gmail.com</li>
                         <li><strong>Availability: </strong>  Internship/Part-time</li>
                     </ul>
+                    <ul>
+                        <li><strong>Skills:</strong> Frontend, C++, Python</li>
+                    </ul>
                 </div>
             </div>
             <div class="social-icons">
@@ -73,6 +86,9 @@
                 </a>
               </div>
     </main>
+    <footer>
+        <p>&copy; 2024 Prateek Jain. Crafted with passion and creativity. All Rights Reserved.</p>
+    </footer>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {

@@ -268,5 +268,53 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #45a049;
 }
-  
-  
+.skills{
+    margin-left: 0;
+}
+
+.c:hover{
+  color: rgb(153,153,226);
+  font-size: 1.05rem;
+  cursor: pointer;
+}
+.frontend:hover{
+  color: rgb(153,153,226);
+  font-size: 1.05rem;
+  cursor: pointer;
+}
+.python:hover{
+  color: rgb(153,153,226);
+  font-size: 1.05rem;
+  cursor: pointer;
+}
+.secondsection a{
+  text-decoration: none;
+  color: white;
+}
+nav .dropdown .dropbtn {
+  cursor: pointer;
+}
+
+nav .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #001233;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+nav .dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+nav .dropdown-content a:hover {
+  color: #00B4D8;
+}
+nav .dropdown:hover .dropdown-content {
+  display: block;
+}
+footer p{
+  text-align: center;
+  margin-bottom: 5px;
+}

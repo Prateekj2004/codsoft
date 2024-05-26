@@ -1,0 +1,133 @@
+.lang{
+    color: aqua;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 3rem;
+}
+.language ul{
+    display: flex;
+    justify-content: center;
+}
+.language ul li{
+    list-style: none;
+    margin: 0px 23px;
+    margin-top: 40px;
+}
+.language ul li a{
+    text-decoration: none;
+    color: white;
+}
+.language ul li a:hover{
+        color: rgb(153,153,226);
+        font-size: 1.65rem;
+}
+.language li{
+    font-size: 1.5rem;
+}
+.cpl {
+    margin-left: 100px;
+}
+.cpl h3{
+    font-size: 2.5rem;
+    margin-left: auto;
+    color: aqua;
+}
+.cpl ul{
+    margin-left: 90px;
+    margin-top: 45px;
+    text-decoration: none;
+    color: azure;
+}
+.cpl ul li a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: azure;
+    padding-top: 10px;
+}
+.img1{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-image: url(hr1.png);
+    background-size: contain;
+    margin-top: 45px;
+    margin-left: 250px;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    height:250px;
+}
+
+.img2{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-image: url(leet1.png);
+    background-size: cover;
+    margin-top: 45px;
+    margin-left: 250px;
+}
+.cprofile:hover{
+    font-size: 1.65rem;
+    color: blueviolet;
+}
+
+footer p{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.boxes2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.project{
+    width: 400px;
+    padding-top: 60px;
+    font-size: 1.15rem;
+}
+.pa{
+    text-decoration: none;
+    color: azure;
+}
+.pa:hover{
+    font-size: 1.25rem;
+    color: blueviolet;
+}
+img{
+    width: 400px;
+}
+.boxx{
+    display: flex;
+    flex-direction: column;
+    width: 400 px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+.button{
+}
+.leftsec .btn{
+    padding:12px;
+    margin: 50px 20px 0 6px;
+    background:white;
+    color: black;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+
+.leftsec .btn a{
+    text-decoration: none;
+    color:black;   
+}
+
+.leftsec .btn a:hover{
+    color:rgb(221, 221, 221);  
+}
