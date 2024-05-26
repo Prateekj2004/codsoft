@@ -13,7 +13,6 @@ buttonArray.forEach(btn => {
             string = '';
         } else if (btnValue === '=') {
             try {
-                // Parse the expression manually to handle percentages
                 string = parseExpression(string);
             } catch (error) {
                 string = 'Error';
@@ -27,9 +26,6 @@ buttonArray.forEach(btn => {
 });
 
 function parseExpression(expression) {
-    // Replace all occurrences of % with /100 to convert percentages to decimals
     expression = expression.replace('%', '/100');
-
-    // Evaluate the modified expression
     return eval(expression);
 }
